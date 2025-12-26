@@ -1,4 +1,4 @@
-# CSC 472/572 - Computer Modeling - TODO
+# CSC 472/572 - Computer Modeling - Spring 2026
 
 ### Course Instructor
 
