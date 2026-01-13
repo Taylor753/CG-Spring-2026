@@ -20,10 +20,10 @@ No libraries apart from `libigl`, `numpy`, `pyvista`, and `scipy` are permitted 
 
 ## Installing igl in Python
 
-Before we can begin, you must install `igl`, `pyvista`, and `jupiter` trough conda-forge
+Before we can begin, you must install `igl`, `pyvista`, and `jupyter` trough conda-forge
 ```bash
-pip install igl
-pip pyvista
+pip install libigl
+pip install pyvista
 conda install scipy
 conda install jupyter
 ```
