@@ -63,7 +63,7 @@ grid containing the input point cloud. As an example, the provided code computes
 
 More specifically, for each grid node `xi` of the grid, evaluate the implicit function `f(xi)`, whose zero level set approximates the point cloud.
 Use the moving least squares approximation presented in class and in the tutoring session. You should use the
-Wendland weight function with radius configured by `wendlandRadius` and degree `k = 0, 1, 2` polynomial basis functions configured by `polyDegree`. Only use the constraint points with nonzero weight (i.e., points `p` with `||xi - p|| < wendlandRadius`). *Note* if the number of constraint points within `wendlandRadius` is less than twice the number of polynomial coefficients (i.e., 1 for `k = 0`, 4 for `k = 1`, and 10 for `k = 2`), you can assign a large positive (outside) value to the grid point.
+Wendland weight function with radius configured by `wendlandRadius` (you can used `wedlandRadius = 30`) and degree `k = 0, 1, 2` polynomial basis functions configured by `polyDegree`. Only use the constraint points with nonzero weight (i.e., points `p` with `||xi - p|| < wendlandRadius`). *Note* if the number of constraint points within `wendlandRadius` is less than twice the number of polynomial coefficients (i.e., 1 for `k = 0`, 4 for `k = 1`, and 10 for `k = 2`), you can assign a large positive (outside) value to the grid point.
 
 Store the field value  `fx = f(xi)` in a  `numpy.array`, using the same ordering as in `x`. Render these values by coloring each grid point red/green depending if they are inside outside (i.e., `fx < 0` or `fx ≥ 0`). You can use the `to_pyvista_mesh(V).plot(scalars=color)` where `color` is a vector containing values.
 
