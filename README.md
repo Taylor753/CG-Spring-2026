@@ -72,8 +72,8 @@ By the end of the course, the students will design, program, and analyze algorit
 [07 Curves](slides/07%20-%20Curves.pdf)</br>
 [08 Surfaces](slides/08%20-%20Surfaces.pdf)</br>
 [09 Smoothing](slides/09%20-%20Smoothing.pdf)</br>
-<!-- [10 Directional Fields](slides/10%20-%20Directional%20Fields.pdf)</br>
-[11 Single Patch Parametrization](slides/11%20-%20Single%20Patch%20Parametrization.pdf)</br>
+[10 Directional Fields](slides/10%20-%20Directional%20Fields.pdf)</br>
+<!-- [[11 Single Patch Parametrization](slides/11%20-%20Single%20Patch%20Parametrization.pdf)</br>
 [12 Global Parametrization](slides/12%20-%20Global%20Parametrization.pdf)</br>
 [13 Shape Deformation](slides/13%20-%20Shape%20Deformation.pdf)</br> -->
 <!--</br>[(Extra) Laplace-Beltrami Derivation](slides/55%20-%20Cotangent%20Laplacian.pdf) -->
@@ -91,11 +91,11 @@ By the end of the course, the students will design, program, and analyze algorit
 [Assignment 3](Assignment3/README.md)</br>
 [Assignment 3 Slides](slides/A3%20-%20Assignment%203.pdf)
 
-<!--[Assignment 4](Assignment4/README.md)</br>
+[Assignment 4](Assignment4/README.md)</br>
 [Assignment 4 Slides](slides/A4%20-%20Assignment%204.pdf)
 
 ## Project
 
-[Project Ideas](slides/56%20-%20Project%20Ideas.pdf)</br>
+[Project Ideas](slides/A6%20-%20Project%20Ideas.pdf)</br>
 [Project](Project/README.md)</br>
-[Deformation Slides](slides/A5%20-%20Assignment%205.pdf) -->
+[Deformation Slides](slides/A7%20-%20Assignment%205.pdf)
